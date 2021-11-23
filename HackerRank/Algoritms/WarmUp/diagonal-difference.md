@@ -9,7 +9,6 @@ func diagonalDifference(arr: [[Int]]) -> Int {
         let x = arr.count - 1  - i
         leftToRight += arr[i][i]
         rightToLeft += arr[i][x]
-        print(leftToRight, rightToLeft)
     }
     
     let absoluteDifferences = leftToRight - rightToLeft
